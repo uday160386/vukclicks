@@ -159,23 +159,6 @@ h6 {
   transform: rotate(45deg);
 }
 
-#social-sidebar a[class*="twitter"]:hover,
-#social-sidebar a[class*="twitter"] span,
-#social-sidebar a[class*="twitter"] span:before {
-  background: #00aced;
-}
-
-#social-sidebar a[class*="facebook"]:hover,
-#social-sidebar a[class*="facebook"] span,
-#social-sidebar a[class*="facebook"] span:before {
-  background: #3b5998;
-}
-
-#social-sidebar a[class*="gplus"]:hover,
-#social-sidebar a[class*="gplus"] span,
-#social-sidebar a[class*="gplus"] span:before {
-  background: #e34429;
-}
 
 #social-sidebar a[class*="instagrem"]:hover,
 #social-sidebar a[class*="instagrem"] span,
@@ -183,15 +166,11 @@ h6 {
   background: #ea4c89;
 }
 
-#social-sidebar a[class*="linkedin"]:hover,
-#social-sidebar a[class*="linkedin"] span,
-#social-sidebar a[class*="linkedin"] span:before {
-  background: #0a416e;
-}
 
-#social-sidebar a[class*="github"]:hover,
-#social-sidebar a[class*="github"] span,
-#social-sidebar a[class*="github"] span:before {
+#social-sidebar a[class*="youtube"]:hover,
+#social-sidebar a[class*="youtube"] span,
+#social-sidebar a[class*="youtube"] span:before {
+  background: #ea4c89;
 
 }
 
@@ -703,6 +682,7 @@ input:required {
   color: #eaeaea;
   font-family: 'Cedarville Cursive', cursive	;
   left:25%;
+  font-size: 50px;
 }
 
 .header-area {
@@ -2668,7 +2648,7 @@ footer {
 body {
   height: 100%;
   width: 100%;
-  background: linear-gradient(45deg, yellow, violet, orange, grey);
+  background: linear-gradient(60deg, rgb(31, 29, 29), rgb(240, 236, 240), #131314	, #151617);
   background-size: 300% 300%;
   animation: color 5s ease-in-out infinite;
 }
