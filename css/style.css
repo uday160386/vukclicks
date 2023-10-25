@@ -21,7 +21,7 @@
 }
 .text-box h1{
     font-size: 90px;
-    font-family: 'Cedarville Cursive', cursive		;
+    font-family: Bradley Hand;
 }
 .text-box p{
     margin: 20px 0 40px;
@@ -42,7 +42,7 @@
     transition: 1s;
     text-align: center;
  
-    font-family: 'Cedarville Cursive', cursive	;
+    font-family: Didot	;
 }
 
 .hero-btn:hover{
@@ -62,11 +62,20 @@
 }
 
 /* page content */
-h1, h2, h3 {
+h1, h2 {
   color: white;
-  font-family: 'Cedarville Cursive', cursive;
+  font-family: Zapf Chancery;
   font-weight: bold;
   text-align: center;
+  margin: 20px 0 40px;
+  font-size: 20px;
+}
+h3 {
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+  margin: 20px 0 40px;
+  font-size: 20px;
 }
 
  h4{
@@ -200,13 +209,13 @@ h2 { font-size: 3rem; }
 
 .portfolio-text{
         text-align: center;
-        margin-bottom: 5%;
-        font-family: 'Cedarville Cursive', cursive;
+        font-family: Didot;
+        font-size: 20px;
 }
 .contact-text{
   text-align: center;
   margin-bottom: 1%;
-  font-family: 'Cedarville Cursive', cursive;
+  font-family: Didot;
 }
 .icons .fa{
   color: #ffffff;
@@ -263,7 +272,7 @@ h2 { font-size: 3rem; }
     transition: 1s;
   
    
-    font-family: 'Cedarville Cursive', cursive;
+    font-family: Monaco;
 }
 .project-btn:hover{
     border: 1px solid #363636;
