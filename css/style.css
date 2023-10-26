@@ -204,7 +204,7 @@ h2 { font-size: 3rem; }
 
 
 #portfolio, aboutme{
-        margin-top: 1%;
+        top: 1%;
 }
 
 .portfolio-text{
