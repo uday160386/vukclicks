@@ -12,7 +12,7 @@
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 25%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -550,6 +550,7 @@ body
 /*   z-index:99; */
   position:absolute;
   padding:20px;
+  top:5%;
   height:calc(100% - 30px);
   font-size: 20px;
 }
@@ -558,9 +559,9 @@ body
   font-weight:300;
   margin:0;
   color: white;
-  font-size: 45px;
+  font-size: 40px;
   position:relative;
-  top:-30px;
+  top:0px;
 
 }
 .tile h2
