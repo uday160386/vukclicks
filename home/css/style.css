@@ -23,10 +23,10 @@
 }
 
 .text-box h1 {
-  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-family: 'BlackJack', sans-serif;
   color: rgb(247, 244, 244);
   font-size: 120px;
-  font-style: normal;
+  font-style: bold;
   font-variant: small-caps;
   font-weight: 700;
   line-height: 80px;
