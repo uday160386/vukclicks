@@ -235,6 +235,8 @@ h2 {
   text-align: top;
   overflow-y: auto;
   scroll-behavior: smooth;
+  width: 100%;;
+  position: relative;
 }
 
 .contact-text {
@@ -561,7 +563,7 @@ body {
 
 .wrap {
   margin: 50px auto 0 auto;
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: center;
 
@@ -569,21 +571,19 @@ body {
 }
 
 .tile {
-  width: 400px;
+  width: 90%;
   height: 400px;
   margin: 10px;
   align-content: center;
   text-align: center;
-  ;
-  display: inline-block;
   background-size: cover;
-  position: relative;
+  position: center;
   cursor: pointer;
   transition: all 0.4s ease-out;
   overflow: hidden;
   color: white;
   font-family: 'Roboto';
-  box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.64);
+  box-shadow: 1px 40px 77px -17px rgba(0, 0, 0, 0.64);
   transform: scale(1.05);
 
 }
@@ -662,13 +662,13 @@ body {
 .dots {
   position: absolute;
   bottom: 7%;
-  right: 50%;
+  left: 40%;
   margin: 0 auto;
   width: 60px;
   height: 70px;
   color: currentColor;
   display: flex;
-
+  text-align: center;
   align-items: center;
   justify-content: space-around;
 
