@@ -101,8 +101,8 @@ h6 {
 
 #social-sidebar {
   left: 0;
-  position: fixed;
-  top: 30%;
+  position: relative;
+  top: 10%;
   z-index: 2;
 }
 
@@ -680,7 +680,7 @@ input:required {
 
 .home-logo {
   color: #eaeaea;
-  font-family: Bradley Hand;
+  font-family: Brush Script MT, Brush Script Std, cursive; color: rgb(247, 244, 244);font-size: 120px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 80px;
   left:25%;
   font-size: 50px;
 }

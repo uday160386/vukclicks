@@ -1,162 +1,258 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
-    <title>VUKClicks</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <title>VUK Clicks</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- <link rel="icon" href="../img/core-img/1.png"> -->
+    <link rel="icon" href="../img/core-img/favicon.png">
+    <!-- animate on scroll css  -->
+    
+
+    <link rel="stylesheet" href="home/css/style.css">   
+
+    <link href="portfolio/css/style.css" rel="stylesheet" type="text/css" />
     <link href="portfolio/style.css" rel="stylesheet" type="text/css" />
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
-  </head>
-  <body>
-<!-- Slideshow container -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Rock+Salt" />
 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="home-gallery-slider/css/thumbnail-slider.css" rel="stylesheet" type="text/css" />
+    <link href="home-gallery-slider/css/ninja-slider.css" rel="stylesheet" type="text/css" />
+    <script src="home-gallery-slider/js/thumbnail-slider.js" type="text/javascript"></script>
+    <script src="home-gallery-slider/js/ninja-slider.js" type="text/javascript"></script>
+    <style>
+        body {font: normal 0.9em Arial;margin:0;}
+        a {color:#1155CC;}
+        ul li {padding: 10px 0;}
+        header {display:block;padding:60px 0 10px;background:rgba(0,0,0,0.8);text-align:center;}
+        header a {
+            font-family: sans-serif;
+            font-size: 24px;
+            line-height: 24px;
+            padding: 8px 13px 7px;
+            color: #555;
+            text-decoration:none;
+            transition: color 0.7s;
+        }
+        header a.active {
+            font-weight:bold;
+            width: 24px;
+            height: 24px;
+            padding: 4px;
+            text-align: center;
+            display:inline-block;
+            border-radius: 50%;
+            background: #4d5256;
+            color: #191919;
+        }
+        code {display:block;white-space:pre; background-color:#f6f6f6;padding:8px; overflow:auto;border:1px dotted #999;margin:6px 0;}
+    </style>
+    <title>VUKClicks</title>
+    
+  </head>
+  <ul id="social-sidebar" data-aos="fade-right" data-aos-duration="3000" style="z-index: 200">
+    <li>
+        <a class="fa fa-instagram" href="https://www.instagram.com/vukclicks/"
+            target="_blank"><span>Instagram</span></a>
+    </li>
+    <li>
+        <a class="fa fa-flickr" href="https://www.flickr.com/photos/vukhere/"
+            target="_blank"><span>flickr</span></a>
+    </li>
+    <li>
+        <a class="fa fa-youtube-play" href="https://www.youtube.com/@vuktales"
+            target="_blank"><span>youtube</span></a>
+    </li>
+</ul>
+  <body>
           <section id="header">
            <div id="home" class="text-box">
             <h1>VUK Clicks</h1>
-            
+                       
             <p style="font-family:Didot;"><i>“What I like about photographs is that they capture a moment that’s gone forever, impossible to reproduce.”
               – Karl Lagerfeld
               </i></p>
               <a href="#Portfolio-Flexi" class="hero-btn">Portfolio </a>
                 <a href="#aboutme" class="hero-btn">About me</a>
             <a href="#Portfolio" class="hero-btn"><span>&#8595;</span></a>
-            <a href="https://www.instagram.com/vukclicks/" class="hero-btn"><i class="fa fa-instagram fa-2x" style="color:rgb(238, 103, 35)"></i></a>
-            <a href="https://www.flickr.com/photos/vukhere/" class="hero-btn"><i class="fa fa-flickr fa-2x" style="color:rgb(240, 240, 246)"></i></a>
-            <a href="https://www.flickr.com/photos/vukhere/" class="hero-btn"><i class="fa fa-youtube fa-2x" style="color:rgb(255, 0, 0)"></i></a>
-            <div class="icons">
-              
-            </div> 
         </div>
     </section>
 
 <section id="background-video">
-
           <video class="video-cover" autoplay loop muted >
-  <source src="src/images/video-background.mp4">
+  <source src="home/images/video-background.mp4">
 </video>
-
 </section>
 <section id="Portfolio">
-<div class="slideshow-container">
+<!-- Container for the image gallery -->
+<div class="container">
 
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 6</div>
-    <img src="src/images/wild.jpg" style="width:100%">
-    <div class="text">Thean Hou Temple, is a six-tiered temple of the Chinese sea goddess Mazu located in Kuala Lumpur, Malaysia. </div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 6</div>
-    <img src="src/images/project-2.jpg" style="width:100%">
-    <div class="text">‘Little Children on A Bicycle Mural’ by Ernest Zacharevic</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 6</div>
-    <img src="src/images/project-3.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
-  </div>
-
-   <div class="mySlides fade">
-    <div class="numbertext">4 / 6</div>
-    <img src="src/images/project-4.jpg" style="width:100%">
-    <div class="text">Caption Four</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">5 / 6</div>
-    <img src="src/images/project-5.jpg" style="width:100%">
-    <div class="text">Caption Five</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">6 / 6</div>
-    <img src="src/images/project-6.jpg" style="width:100%">
-    <div class="text">Caption Six</div>
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
-</section>
-<section id="Portfolio-Flexi">
-    <h1 class="text-center">Portfolio</h1>
-<!-- Flex Cards Container -->
-    <div class="expanding-flex-cards">
-      
-        <div class="expanding-flex-cards-item active">
-            <img src="" alt="" class="expanding-flex-cards-item-img">
-            <div class="expanding-flex-cards-item-body">
-                <p>Wildlife photography, it is through the lens that we can witness the intricate behaviours and interactions of wildlife, offering a unique glimpse into their fascinating lives.Its an opportunity to educate and inspire people to protect and preserve the delicate balance of our ecosystem.</p>
-              </div>
-              <a href="https://www.flickr.com/photos/vukhere/" class="hero-btn" style="left:30%;top:60%;  background: #363636;color:rgb(235, 235, 241);">Gallery</a>
-            <div class="expanding-flex-cards-item-footer">
-                <div class="expanding-flex-cards-icon">></div>
-                <div class="expanding-flex-cards-title">Safari Diaries</div>
-            </div>
+  <!-- Full-width images with number text -->
+  <div id='ninja-slider'>
+    <div>
+        <div class="slider-inner">
+            <ul>
+                <li><a class="ns-img" href="home-gallery-slider/img/1.jpg"></a></li>
+                <li><a class="ns-img" href="home-gallery-slider/img/2.jpg"></a></li>
+                <li><a class="ns-img" href="home-gallery-slider/img/3.jpg"></a></li>
+                <li><a class="ns-img" href="home-gallery-slider/img/4.jpg"></a></li>
+                <li><a class="ns-img" href="home-gallery-slider/img/5.jpg"></a></li>
+                <li><a class="ns-img" href="home-gallery-sliderimg/a.jpg"></a></li>
+                <li><a class="ns-img" href="home-gallery-slider/img/b.jpg"></a></li>
+                <li><a class="ns-img" href="home-gallery-slider/img/c.jpg"></a></li>
+                <li><a class="ns-img" href="home-gallery-slider/img/d.jpg"></a></li>
+                <li><a class="ns-img" href="home-gallery-slider/img/2.jpg"></a></li>
+                <li><a class="ns-img" href="home-gallery-slider/img/3.jpg"></a></li>
+                <li><a class="ns-img" href="img/4.jpg"></a></li>
+                <li><a class="ns-img" href="img/1.jpg"></a></li>
+                <li><a class="ns-img" href="img/2.jpg"></a></li>
+                <li><a class="ns-img" href="img/3.jpg"></a></li>
+                <li><a class="ns-img" href="img/4.jpg"></a></li>
+                <li><a class="ns-img" href="img/5.jpg"></a></li>
+                <li><a class="ns-img" href="img/a.jpg"></a></li>
+                <li><a class="ns-img" href="img/b.jpg"></a></li>
+                <li><a class="ns-img" href="img/c.jpg"></a></li>
+                <li><a class="ns-img" href="img/d.jpg"></a></li>
+                <li><a class="ns-img" href="img/2.jpg"></a></li>
+                <li><a class="ns-img" href="img/3.jpg"></a></li>
+                <li><a class="ns-img" href="img/4.jpg"></a></li>
+            </ul>
+            <div class="fs-icon" title="Expand/Close"></div>
         </div>
-        <div class="expanding-flex-cards-item">
-            <img src="images/image2.jpg" alt="" class="expanding-flex-cards-item-img">
-            <div class="expanding-flex-cards-item-body">
-                <p>Proin congue ullamcorper enim, vel pharetra ante ultrices non.</p>
-            </div>
-            <div class="expanding-flex-cards-item-footer">
-                <div class="expanding-flex-cards-icon">></div>
-                <div class="expanding-flex-cards-title">Architectural Marvels</div>
-            </div>
-        </div>
-        <div class="expanding-flex-cards-item">
-            <img src="src/images/travel.jpeg" alt="" class="expanding-flex-cards-item-img">
-            <div class="expanding-flex-cards-item-body">
-                <p>Pellentesque aliquet nisl vel tellus pellentesque suscipit.</p>
-            </div>
-            <div class="expanding-flex-cards-item-footer">
-                <div class="expanding-flex-cards-icon">></div>
-                <div class="expanding-flex-cards-title">Wandering Eyes</div>
-            </div>
-        </div>
-       
-        <div class="expanding-flex-cards-item">
-            <img src="src/images/travel.jpeg" alt="" class="expanding-flex-cards-item-img">
-            <div class="expanding-flex-cards-item-body">
-                <p>Nam hendrerit lorem erat. </p>
-            </div>
-            <div class="expanding-flex-cards-item-footer">
-                <div class="expanding-flex-cards-icon">></div>
-                <div class="expanding-flex-cards-title">Fabulous Flora</div>
-            </div>
-        </div>
-        <div class="expanding-flex-cards-item">
-            <img src="images/image5.png" alt="" class="expanding-flex-cards-item-img">
-            <div class="expanding-flex-cards-item-body">
-                <p>Nam hendrerit lorem erat. </p>
-            </div>
-            <div class="expanding-flex-cards-item-footer">
-                <div class="expanding-flex-cards-icon">></div>
-                <div class="expanding-flex-cards-title">Digital Art</div>
+        <div id="thumbnail-slider">
+            <div class="inner">
+                <ul>
+                    <li>
+                        <a class="thumb" href="home-gallery-slider/img/1.jpg"></a>
+                        <span>0</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/2.jpg"></a>
+                        <span>1</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/3.jpg"></a>
+                        <span>2</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/4.jpg"></a>
+                        <span>3</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/5.jpg"></a>
+                        <span>4</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/a.jpg"></a>
+                        <span>5</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/b.jpg"></a>
+                        <span>6</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/c.jpg"></a>
+                        <span>7</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/d.jpg"></a>
+                        <span>8</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/2.jpg"></a>
+                        <span>9</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/3.jpg"></a>
+                        <span>10</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/4.jpg"></a>
+                        <span>11</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/1.jpg"></a>
+                        <span>12</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/2.jpg"></a>
+                        <span>13</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/3.jpg"></a>
+                        <span>14</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/4.jpg"></a>
+                        <span>15</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/5.jpg"></a>
+                        <span>16</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/a.jpg"></a>
+                        <span>17</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/b.jpg"></a>
+                        <span>18</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/c.jpg"></a>
+                        <span>19</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/d.jpg"></a>
+                        <span>20</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/2.jpg"></a>
+                        <span>21</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/3.jpg"></a>
+                        <span>22</span>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/4.jpg"></a>
+                        <span>23</span>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-<!-- End of Flex Cards Container -->
+</div>
+
+</section>
+
+<section id="Portfolio-Flexi" >
+    <h1 class="text-center" style="font-family:Brush Script MT, Brush Script Std, cursive;font-size:90px;">Portfolio</h1>
+<!-- Flex Cards Container -->
+<div align="center">
+  <iframe width="1200"  height="700" src="home-portfolio-tiles/portfoliotiles.html" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+  </div>
 </section>
 
 <section id="aboutme">
-  <h1 class="text-center">About Me</h1>
-
+  <h1 class="text-center" style="font-family:Brush Script MT, Brush Script Std, cursive;font-size:70px;" >About Me </h1>  
   <div class="wrap">
     <div class="tile"> 
-      <img src='src/images/profile.png'/>
+      <img src='home/images/profile.png'/>
       <div class="text">
-      <h1>Hey there, welcome to the amazing world of VUK Click’s!</h1>
+      <h1>Hey there, welcome to the amazing world of VUK Click’s! </h1>
+      
       <h2 class="animate-text"></h2>
      
      <div class="dots">
@@ -169,9 +265,17 @@
       </div>
     </div>
     <div class="tile"> 
+     
+      <div class="text">
+        <h1><br>WildLife <br> Travel <br> Nature <br> Landscape <br>Architecture</h1>
+ 
+      </div>
+    </div>
+    <div class="tile"> 
       
       <div class="text">
-       I just wanted to express my sheer excitement about being a hobby and travel photographer. My main aim is to passionately showcase my deep love and enthusiasm for photography.
+        I'm Uday - amateur photographer.<br>
+        I just wanted to express my sheer excitement about being a hobby and travel photographer. My main aim is to passionately showcase my deep love and enthusiasm for photography.
          <br>Through my photographs, I hope to inspire others to see the world in a new light, to appreciate the beauty that surrounds us, and to encourage them to pick up a camera and start capturing their own moments of magic. <br>So join me on this incredible journey of visual storytelling, and let's celebrate the artistry and beauty of photography together!
       <div >  
       </div>  
@@ -180,18 +284,17 @@
     </div>
     </div>
 
-</section>    
+</section>  
 <section class="footer">
-       
-  <hr style="border-color: #f0eaea;"/>
-  <h4>
-    Copyrights &copy;  VUKClicks, 2023
-  </h4>
   
-</section>    
-<script src="js/jquery.min.js"></script>
+  <p>Copyrights &copy;  VUKClicks, 2023</p>
+  
+</section>  
 
-<script src="../js/popper.min.js%2bbootstrap.min.js.pagespeed.jc.9S4FA15Zn6.js"></script>
+
+<script src="home/js/jquery.min.js"></script>
+
+<script src="home/js/popper.min.js%2bbootstrap.min.js.pagespeed.jc.9S4FA15Zn6.js"></script>
 <script>
     eval(mod_pagespeed_2mSwO3vn68);
 </script>
@@ -200,9 +303,9 @@
     eval(mod_pagespeed_aQrG1NKKxL);
 </script>
 
-<script src="js/lx.bundle.js"></script>
+<script src="home/js/lx.bundle.js"></script>
 
-<script src="js/default-assets/active.js"></script>
+<script src="home/js/default-assets/active.js"></script>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
 
@@ -213,6 +316,7 @@
 <script>
     AOS.init();
 </script>
-    <script src="js/script.js"></script>
+    <script src="home/js/script.js"></script>
   </body>
+  
 </html>
