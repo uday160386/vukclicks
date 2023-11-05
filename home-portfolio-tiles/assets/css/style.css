@@ -17,7 +17,7 @@
   padding: 0;
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
-  font-family: "Oruguitas", sans-serif;
+  font-family: 'Elvishlis', sans-serif;
 }
 
 html {
@@ -119,7 +119,7 @@ body {
   cursor: pointer;
   transition: 1s;
   text-align: center;
-  font-family: Didot	;
+  font-family: 'Elvishlis', sans-serif;
 }
 #slider--1:checked ~ [for=slider--1] {
   opacity: 1;

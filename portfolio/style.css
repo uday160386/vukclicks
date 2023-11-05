@@ -51,7 +51,7 @@ Last Update: Feb 22, 2019
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Elvishlis', sans-serif;
   font-weight: 400;
   font-size: 16px;
   position: relative;
@@ -89,14 +89,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Elvishlis', sans-serif;
   color: #252525;
   line-height: 1.3;
   font-weight: 600;
 }
 
 [class^="entypo-"]:before {
-  font-family: "entypo", sans-serif;
+  font-family: 'Elvishlis', sans-serif;
 }
 
 #social-sidebar {
@@ -242,7 +242,7 @@ ul li {
 .jarallax > .jarallax-img {
   position: absolute;
   object-fit: cover;
-  font-family: "object-fit: cover";
+  font-family: 'Elvishlis', sans-serif;
   top: 0;
   left: 0;
   width: 100%;
@@ -680,16 +680,19 @@ input:required {
 
 .home-logo {
   color: #eaeaea;
-  font-family: Brush Script MT, Brush Script Std, cursive; color: rgb(247, 244, 244);font-size: 120px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 80px;
-  left:25%;
+  font-family: 'BlackJack', sans-serif;
+  left:0%;
   font-size: 50px;
+  text-align: left;
+  font-style: bold;
 }
 
 .header-area {
   position: fixed;
   z-index: 100;
   width: 100%;
-  height:100%;
+  height:50%;
+  left:0%;
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -1343,7 +1346,7 @@ input:required {
 .breadcrumb-content .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
   content: "\f105";
   color: #ffffff;
-  font-family: "FontAwesome";
+  font-family: 'Elvishlis', sans-serif;
 }
 
 .breadcrumb-area.blog {
@@ -2315,6 +2318,7 @@ input:required {
 footer {
   background-color: #161715;
   height: vh;
+  text-align: center;
 }
 
 .wrapper {

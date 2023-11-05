@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'ElegantIcons';
+	font-family: 'Elvishlis', sans-serif;
 	src: url('fonts/ElegantIcons.eot');
 	src: url('fonts/ElegantIconsd41d.eot?#iefix') format('embedded-opentype'), url('fonts/ElegantIcons.woff') format('woff'), url('fonts/ElegantIcons.ttf') format('truetype'), url('fonts/ElegantIcons.svg#ElegantIcons') format('svg');
 	font-weight: normal;
@@ -17,7 +17,7 @@ you can use the generic selector below, but it's slower:
 */
 
 .arrow_left, .arrow_right, .arrow_triangle-right, .icon_house_alt {
-	font-family: 'ElegantIcons';
+	font-family: 'Elvishlis', sans-serif;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
