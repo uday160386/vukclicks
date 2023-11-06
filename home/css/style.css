@@ -63,8 +63,8 @@
   height: 100vh;
   width: 100vw;
   object-fit: cover;
-  -o-filter: blur(20px);
-    filter: blur(20px);
+  -o-filter: blur(30px);
+    filter: blur(30px);
   position: fixed;
   left: 0;
   right: 0;
