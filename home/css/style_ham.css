@@ -30,6 +30,7 @@ nav {
   color: #fff;
   position: absolute;
   text-align: left;
+  top:5%;
   
 }
 .text-box h1 {
@@ -37,6 +38,7 @@ nav {
   color: rgb(248, 244, 244);
   font-size: 80px;
   height: 30px;
+  
 }
 nav .logo {
   display: flex;
@@ -52,8 +54,10 @@ nav .logo {
 .logo .logo-name {
   color: hsl(190, 76%, 56%);
   font-size: 52px;
-  text-align: left;
+  left:10%;
   font-family: 'Elvishlis';
+  padding-top: 20px;
+  padding-bottom: 20px;
  }
 nav .sidebar {
   position: fixed;
@@ -83,7 +87,7 @@ nav.open .sidebar {
   display: flex;
   align-items: right;
   margin: 4px 0;
-  padding: 10px 12px;
+  padding: 8px 12px;
   border-radius: 8px;
   text-decoration: none;
 }
