@@ -3,29 +3,29 @@
 }
 
 #header {
-  min-height: 100vh;
+  min-height: 50vh;
   width: 100%;
   background-position: center;
   background-size: cover;
   position: relative;
   overflow: hidden;
+  top: 2%;
 }
 
 .text-box {
-  width: 90%;
+  width: 30%;
   color: #fff;
   position: absolute;
-  top: 55%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
-
+  text-align: right;
 }
 
 .text-box h1 {
   font-family: 'BlackJack', sans-serif;
   color: rgb(247, 244, 244);
-  font-size: 120px;
+  font-size: 60px;
   font-style: bold;
   font-variant: small-caps;
   font-weight: 700;
@@ -102,6 +102,7 @@ h4 {
 
 h1 {
   font-size: 3rem;
+  color: white;
 }
 
 h2 {
@@ -234,7 +235,7 @@ h2 {
 }
 
 
-#aboutme {
+#aboutme, #Portfolio {
   text-align: top;
   overflow-y: auto;
   scroll-behavior: smooth;
@@ -683,9 +684,6 @@ body {
   background-color: currentColor;
   border-radius: 50%;
   display: block;
-
-
-
 }
 
 .tile:hover span {
@@ -816,7 +814,6 @@ body {
   height: 100%;
   position: absolute;
   }
-
 
 .grid-container {
   columns: 5 200px;
