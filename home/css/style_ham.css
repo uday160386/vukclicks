@@ -42,8 +42,8 @@ nav {
 }
 nav .logo {
   display: flex;
-  align-items: center;
-  margin: 0 24px;
+  align-items: left;
+  margin: 0 2px;
 }
 .logo .menu-icon {
   color: #fff;
@@ -53,8 +53,8 @@ nav .logo {
 }
 .logo .logo-name {
   color: hsl(190, 76%, 56%);
-  font-size:40px;
-  left:10%;
+  font-size:36px;
+  text-align: left;
   font-family: 'Elvishlis';
   padding-top: 5px;
   padding-bottom: 5px;
@@ -64,7 +64,7 @@ nav .sidebar {
   position: fixed;
   top: 0;
   left: -100%;
-  width: 240px;
+  width: 260px;
   padding: px 0;
   background-color: #080808;
   opacity: 1.5;

@@ -1,9 +1,6 @@
-
-
 h1 {
   color: coral;
 }
-
 .grid-container {
   columns: 5 200px;
   column-gap: 1.5rem;
