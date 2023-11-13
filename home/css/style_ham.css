@@ -53,18 +53,19 @@ nav .logo {
 }
 .logo .logo-name {
   color: hsl(190, 76%, 56%);
-  font-size: 52px;
+  font-size:40px;
   left:10%;
   font-family: 'Elvishlis';
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
  }
 nav .sidebar {
   position: fixed;
   top: 0;
   left: -100%;
   width: 240px;
-  padding: 8px 0;
+  padding: px 0;
   background-color: #080808;
   opacity: 1.5;
   box-shadow: 0 5px 1px rgba(186, 10, 10, 0.1);
@@ -75,7 +76,7 @@ nav.open .sidebar {
 }
 .sidebar .sidebar-content {
   display: flex;
-  height: 90%;
+  height: 70%;
   flex-direction: column;
   justify-content: space-between;
   padding: 30px 16px;
