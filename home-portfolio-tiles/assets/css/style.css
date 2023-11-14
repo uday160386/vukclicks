@@ -86,10 +86,10 @@ body {
   inset: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  -o-object-fit: right;
+     object-fit: right;
+  -o-object-position: cover;
+     object-position: cover;
   pointer-events: none;
   -webkit-user-select: none;
      -moz-user-select: none;
