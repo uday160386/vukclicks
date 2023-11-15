@@ -2,7 +2,7 @@ h1 {
   color: coral;
 }
 .grid-container {
-  columns: 5 200px;
+  row: 1 200px;
   column-gap: 1.5rem;
   width: 90%;
   margin: 0 auto;
