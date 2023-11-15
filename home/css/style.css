@@ -659,7 +659,7 @@ body {
     max-width: 1200px;
     height: 400px;
     left:2%;
-    top:5%;
+    top:10%;
   }
 }
 @media screen and (max-width: 768px) {
