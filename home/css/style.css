@@ -330,7 +330,7 @@ h2 {
   }
 
   .card {
-    height: 350px;
+    height: 300px;
     text-align: center;
   }
 
@@ -339,7 +339,7 @@ h2 {
   }
 
   .card img {
-    height: 250px;
+    height: 200px;
 
   }
 
@@ -356,7 +356,7 @@ h2 {
   }
 
   .card {
-    height: 350px;
+    height: 300px;
     text-align: center;
   }
 
@@ -369,7 +369,7 @@ h2 {
   }
 
   .card {
-    height: 350px;
+    height: 300px;
     text-align: center;
   }
 }
@@ -381,14 +381,14 @@ h2 {
 }
 
 .footer h4 {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   font-size: 18px;
   color: white;
   font-weight: normal;
 }
 
 .footer p {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   font-size: 16px;
   color: white;
   font-weight: normal;
@@ -404,12 +404,6 @@ h2 {
   font-size: 2.75em;
 }
 
-
-
-body {
-  background-color: #eee
-}
-
 .wrap {
   margin: 50px auto 0 auto;
   width: 90%;
@@ -419,9 +413,9 @@ body {
 }
 
 .tile {
-  width: 90%;
+  width: 500px;
   height: 400px;
-  margin: 10px;
+  margin: 25px;
   align-content: center;
   text-align: center;
   background-size: cover;
@@ -431,9 +425,8 @@ body {
   overflow: hidden;
   color: white;
  font-family: 'Elvishlis', sans-serif;
-  box-shadow: 1px 40px 77px -17px rgba(0, 0, 0, 0.64);
+  box-shadow: 1px 10px 37px 17px rgba(0, 0, 0, 0.64);
   transform: scale(1.05);
-
 }
 
 .tile img {
@@ -444,7 +437,7 @@ body {
   left: 0;
   z-index: 0;
   transition: all 0.4s ease-out;
-  opacity: 0.2;
+  opacity: 0.5;
 }
 
 .tile .text {
@@ -659,7 +652,7 @@ body {
   border-radius: 25px;
   height: 500px;
   transition: all 0.3s;
-  left:20%;
+  left:25%;
   top:20%;
 }
 @media screen and (max-width: 992px) {

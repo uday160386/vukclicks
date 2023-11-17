@@ -93,7 +93,7 @@ nav.open .sidebar {
   text-decoration: none;
 }
 .lists .nav-link:hover {
-  background-color: #4070f4;
+  background-color: #f4f5f7;
 }
 .nav-link .icon {
   margin-left: 25px;
@@ -107,7 +107,7 @@ nav.open .sidebar {
 }
 .lists .nav-link:hover .icon,
 .lists .nav-link:hover .link {
-  color: #fff;
+  color: #010105;
 }
 .overlay {
   position: fixed;

@@ -3,22 +3,33 @@ html, body {
   min-height: 100%;
   margin: 0;
 }
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-  background-size: cover;
+* {
+  box-sizing: border-box
+}
+#tigerandlions, #nagarhole, #fauna, #birds {
+  min-height:60vh;
+  font-family: 'Elvishlis', sans-serif;
+  display: grid;
+  box-sizing: border-box;
+  text-align: top;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  width: 100%;;
+  position: relative;
+  overflow-y: hidden; /* Hide vertical scrollbar */ 
+  top:10%;
+  z-index: -1;
+  left:20%;
 }
 
 .thumbs {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   width: 500px;
   max-width: 100%;
-  text-align: center;
+  text-align: right;
+  align-items: center;
+
 }
 .thumbs > a {
   max-width: 150px;
