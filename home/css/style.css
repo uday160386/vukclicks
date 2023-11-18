@@ -413,9 +413,9 @@ h2 {
 }
 
 .tile {
-  width: 500px;
+  width: 90%;
   height: 400px;
-  margin: 25px;
+  margin: 10px;
   align-content: center;
   text-align: center;
   background-size: cover;
@@ -425,8 +425,9 @@ h2 {
   overflow: hidden;
   color: white;
  font-family: 'Elvishlis', sans-serif;
-  box-shadow: 1px 10px 37px 17px rgba(0, 0, 0, 0.64);
+  box-shadow: 1px 40px 77px -17px rgba(0, 0, 0, 0.64);
   transform: scale(1.05);
+
 }
 
 .tile img {
@@ -645,14 +646,14 @@ h2 {
 .blog-slider {
   width: 95%;
   position: absolute;
-  max-width: 1000px;
+  max-width: 900px;
   margin: auto;
    box-shadow: 0px 14px 80px rgba(253, 253, 253, 0.2);
   padding: 25px;
   border-radius: 25px;
   height: 500px;
   transition: all 0.3s;
-  left:250%;
+  left:20%;
   top:20%;
 }
 @media screen and (max-width: 992px) {
