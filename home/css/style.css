@@ -898,3 +898,137 @@ h2 {
     width: 30px;
   }
 }
+#social-sidebar {
+  left: 0;
+  position: fixed;
+  top: 40%;
+  z-index: 2;
+}
+
+#social-sidebar li:first-child a {
+  border-top-right-radius: 5px;
+}
+
+#social-sidebar li:last-child a {
+  border-bottom-right-radius: 5px;
+}
+
+#social-sidebar a {
+  background: rgba(31, 30, 30, 0.7);
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  height: 50px;
+  width: 50px;
+  font-size: 24px;
+  line-height: 50px;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+#social-sidebar a:hover span {
+  left: 120%;
+  opacity: 1;
+}
+
+#social-sidebar a span {
+  font: 12px "Poppins", sans-serif;
+  text-transform: uppercase;
+  border-radius: 3px;
+  line-height: 24px;
+  left: -100%;
+  margin-top: -16px;
+  opacity: 0;
+  padding: 4px 8px;
+  position: absolute;
+  transition: opacity 0.3s, left 0.4s;
+  top: 50%;
+  z-index: -1;
+}
+
+#social-sidebar a span:before {
+  display: block;
+  height: 8px;
+  width: 8px;
+  left: -4px;
+  margin-top: -4px;
+  position: absolute;
+  top: 50%;
+  transform: rotate(45deg);
+}
+
+
+#social-sidebar a[class*="instagrem"]:hover,
+#social-sidebar a[class*="instagrem"] span,
+#social-sidebar a[class*="instagrem"] span:before {
+  background: #ea4c89;
+}
+
+
+#social-sidebar a[class*="youtube"]:hover,
+#social-sidebar a[class*="youtube"] span,
+#social-sidebar a[class*="youtube"] span:before {
+  background: #ea4c89;
+
+}
+
+a,
+a:active,
+a:focus,
+a:hover {
+  text-decoration: none;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  outline: none;
+  font-weight: 500;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  line-height: 1.9;
+  color: #636363;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-overlay {
+  position: relative;
+  z-index: 1;
+}
+
+.bg-overlay::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.bg-img {
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
