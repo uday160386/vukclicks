@@ -9,13 +9,13 @@
   background-size: cover;
   position: relative;
   overflow: hidden;
-  top: 10%;
+  top: 15%;
 }
 .text-box {
   width: 30%;
   color: #fff;
   position: absolute;
-  top: 10%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: right;

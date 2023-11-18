@@ -44,10 +44,11 @@ body {
   cursor: pointer;
   background-color:transparent;
   color: white;
-  padding: 5px 10px;
+  padding: 1px 5px;
   border: none;
   left:2%;
   margin-left:1px;
+  top:0%;
 }
 
 .openbtn:hover {
