@@ -770,14 +770,14 @@ h2 {
 @media screen and (max-width: 768px) {
   .blog-slider__img {
     transform: translateY(-50%);
-    width: 90%;
-    height: 400px;
+    width: 80%;
+    height: 300px;
   }
 }
 @media screen and (max-width: 576px) {
   .blog-slider__img {
     width: 95%;
-  
+    height: 300px;
     
   }
 }
