@@ -652,7 +652,7 @@ h2 {
   border-radius: 25px;
   height: 500px;
   transition: all 0.3s;
-  left:25%;
+  left:250%;
   top:20%;
 }
 @media screen and (max-width: 992px) {
