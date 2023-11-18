@@ -53,7 +53,7 @@
 }
 
 .gallery {
-  width: 1200px;
+  width: 450px;
   margin: 0 auto;
   padding: 5px;
   background: transparent;
@@ -97,4 +97,71 @@ h1 {
   font-size: 30px;
   font-weight: 300;
   text-align: center;
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  .gallery {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+    background: transparent;
+  }
+  .gallery > div > img {
+    display: grid;
+    width: 250px;
+    height: 250px;
+    transition: .1s transform;
+    transform: translateZ(0); /* hack */
+  }
+}
+
+@media (max-width: 1000px) {
+  .gallery {
+    width: 400px;
+    margin: 0 auto;
+    padding: 5px;
+    background: transparent;
+  }
+  .gallery > div > img {
+    display: grid;
+    width: 100px;
+    height: 100px;
+    transition: .1s transform;
+    transform: translateZ(0); /* hack */
+  }
+}
+
+@media (min-width: 1000px) {
+  .gallery {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+    background: transparent;
+  }
+  .gallery > div > img {
+    display: grid;
+    width: 250px;
+    height: 250px;
+    transition: .1s transform;
+    transform: translateZ(0); /* hack */
+  }
+
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+  .gallery {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+    background: transparent;
+  }
+  .gallery > div > img {
+    display: grid;
+    width: 250px;
+    height: 250px;
+    transition: .1s transform;
+    transform: translateZ(0); /* hack */
+  }
 }

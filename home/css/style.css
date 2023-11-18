@@ -522,9 +522,6 @@ h2 {
   background-color: currentColor;
   border-radius: 50%;
   display: block;
-
-
-
 }
 
 .tile:hover span {
@@ -774,11 +771,14 @@ h2 {
   .blog-slider__img {
     transform: translateY(-50%);
     width: 90%;
+    height: 400px;
   }
 }
 @media screen and (max-width: 576px) {
   .blog-slider__img {
     width: 95%;
+  
+    
   }
 }
 @media screen and (max-height: 500px) and (min-width: 992px) {
