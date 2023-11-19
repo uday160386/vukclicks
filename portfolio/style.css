@@ -69,8 +69,8 @@
   display: grid;
   width: 300px;
   height: 200px;
-  transition: .1s transform;
-  transform: translateZ(0); /* hack */
+ 
+
 }
 
 .gallery > div:hover {
@@ -78,8 +78,11 @@
 }
 
 .gallery > div:hover > img {
-  transform: scale(4,4);
-  transition: .3s transform;
+  margin: 0 -12px;
+  transform: scale(4,3);
+  transform-origin: center;
+  transition: transform 1.3s ease-in-out, margin 0.3s ease-in-out;
+
 }
 
 .cf:before, .cf:after {
@@ -109,7 +112,7 @@ h1 {
   }
   .gallery > div > img {
     display: grid;
-    width: 250px;
+    width: 500px;
     height: 250px;
     transition: .1s transform;
     transform: translateZ(0); /* hack */
@@ -141,7 +144,8 @@ h1 {
   }
   .gallery > div > img {
     display: grid;
-    width: 250px;
+    width: 1%
+    ;
     height: 250px;
     transition: .1s transform;
     transform: translateZ(0); /* hack */
@@ -152,15 +156,15 @@ h1 {
 /* Screen larger than 900px? 3 columns */
 @media (min-width: 900px) {
   .gallery {
-    width: 1200px;
+    width: 1600px;
     margin: 0 auto;
     padding: 5px;
     background: transparent;
   }
   .gallery > div > img {
     display: grid;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     transition: .1s transform;
     transform: translateZ(0); /* hack */
   }
