@@ -41,8 +41,9 @@
 .hero-btn {
   display: inline-block;
   text-decoration: none;
-  color: white;
-  border: 0px solid #525252;
+  background: #0b0000;
+  color: rgb(245, 235, 235);
+  border: 0px solid #b72525;
 
   padding: 12px 34px;
   font-size: 20px;
@@ -611,7 +612,7 @@ h2 {
   filter: grayscale(0);
 }
 .grid-container div:hover {
-  border-color: rgb(220, 25, 25);
+  border-color: rgb(251, 248, 248);
 }
 .grid-container div img {
   width: 100%;

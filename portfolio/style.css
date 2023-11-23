@@ -69,6 +69,8 @@
   display: grid;
   width: 300px;
   height: 200px;
+ box-shadow: 5px 5px 5px rgba(192, 23, 23, 0.5);
+
  }
 
 .gallery > div:hover {
@@ -77,9 +79,9 @@
 
 .gallery > div:hover > img {
   margin: 0 -12px;
-  transform: scale(4,3);
+  transform: scale(1.5,1.5);
   transform-origin: center;
-  transition: transform 1.3s ease-in-out, margin 0.3s ease-in-out;
+  transition: transform 1.4s ease-in-out, margin 0.3s ease-in-out;
 }
 
 .cf:before, .cf:after {
@@ -160,8 +162,8 @@ h1 {
   }
   .gallery > div > img {
     display: grid;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     transition: .1s transform;
     transform: translateZ(0); /* hack */
   }
