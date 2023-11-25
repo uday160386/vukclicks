@@ -1,7 +1,7 @@
 #Felidae, #Fauna, #FF, #ForestN, #nevisR,#Cambodia,#Canada,#HongKong,#India,#Indonesia,#Malaysia,#Singapore,#Thailand,#UnitedKingdom {
-	padding: 30px 0;
+	padding: 10px 0;
 	position: relative;
-	top:20%;
+	top:0%;
   }
   .text-box {
 	width: 90%;
@@ -48,16 +48,13 @@
   .top
   {
 	  display: flex;
-	  height:100%;	
-	  margin-top: 10vh;
-	  margin-left: auto;
-	  margin-right: auto;
-	  margin-bottom: 10vh;
+	 height:100%;
   }
   .top ul
   {
 	  list-style: none;
-	  z-index: 1;
+	  height:100%;
+
   
   }
   .top ul li
@@ -219,6 +216,7 @@
 	  width: 25%;
 	  height: 50%;
 	  overflow: hidden;
+	  border: 5px solid transparent;
   
   }
   
@@ -246,6 +244,7 @@
   {
 	  opacity: 0;
 	  background-color: rgba(0,0,0,0.90);
+	 
   }
   .top ul li img
   {
@@ -300,4 +299,5 @@
 	  -ms-transform: translateY(-50%);
 	  -o-transform: translateY(-50%);
 	  -webkit-transform: translateY(-50%);
+	  box-shadow: 0px 0px 20px rgba(250, 248, 248, 0.3);
   }
