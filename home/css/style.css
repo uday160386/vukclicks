@@ -60,9 +60,9 @@
 .hero-btn {
   display: inline-block;
   text-decoration: none;
-  background: #0b0000;
+
   color: #f5ebeb;
-  border: 0 solid #b72525;
+  border: 1 solid #b72525;
   padding: 12px 34px;
   font-size: 20px;
   position: relative;
