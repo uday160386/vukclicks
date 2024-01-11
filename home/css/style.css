@@ -32,8 +32,10 @@
 }
 
 .text-box {
-  width: 90%;
-  color: #fff;
+  width: 60%;
+  color: transparent;
+  
+  box-shadow: 5px 100px 400px -7px rgba(10, 10, 10, 0.64);
   position: absolute;
   top: 55%;
   left: 50%;
@@ -43,7 +45,7 @@
 
 .text-box h1 {
   font-family: "BlackJack",sans-serif;
-  color: #f7f4f4;
+  color: #f5f4f4;
   font-size: 120px;
   font-style: bold;
   font-variant: small-caps;
@@ -82,8 +84,8 @@
   height: 100vh;
   width: 100vw;
   object-fit: cover;
-  -o-filter: blur(10px);
-  filter: blur(10x);
+  -o-filter: blur(1px);
+  filter: blur(1x);
   position: absolute;
   left: 0;
   right: 0;
@@ -118,6 +120,7 @@ h4 {
 
 @media (max-width:750px) {
   #background-video {
+    filter:blur(5px);
       height: 100vh;
       width: 5vw;
       object-fit: cover;
