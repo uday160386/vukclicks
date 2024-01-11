@@ -32,9 +32,8 @@
 }
 
 .text-box {
-  width: 60%;
+ 
   color: transparent;
-  
   box-shadow: 5px 100px 400px -7px rgba(10, 10, 10, 0.64);
   position: absolute;
   top: 55%;
