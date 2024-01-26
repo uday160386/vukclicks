@@ -1,0 +1,91 @@
+body {
+    font-family: "Elvishlis", sans-serif
+}
+
+.sidepanel {
+    width: 0%;
+    position: fixed;
+    z-index: 1500;
+    height: 850px;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: .5s;
+    padding-top: 60px
+}
+
+.sidepanel a {
+    padding: 12px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    transition: .3s;
+    display: flex;
+    align-items: right;
+    margin: 10px 0;
+    border-radius: 8px
+}
+
+.sidepanel a:hover {
+    background-color: #f4f5f7;
+    color: #111
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 24px
+}
+
+.openbtn {
+    font-size: 48px;
+    cursor: pointer;
+    color: #fff;
+    padding: 1px 5px;
+    border: 0;
+    left: 2%;
+    margin-left: 1px;
+    top: 0
+}
+
+.openbtn,
+.openbtn:hover {
+    background-color: transparent
+}
+
+.logo,
+.logo .logo-name {
+    font-size: 50px;
+    text-align: left
+}
+
+.logo {
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.logo .logo-name {
+    color: #3ac8e4;
+    font-family: "BlackJack", sans-serif;
+    font-weight: 700
+}
+
+.button-group,
+button {
+    background-color: transparent
+}
+
+.button-group {
+    display: inline-block
+}
+
+button {
+    padding-bottom: 5px;
+    border: 0;
+    width: 40px;
+    height: 40px
+}

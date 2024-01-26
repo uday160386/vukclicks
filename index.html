@@ -12,11 +12,12 @@
     <!-- <link rel="icon" href="../img/core-img/1.png"> -->
     <link rel="icon" href="../img/core-img/favicon.png">
     <!-- animate on scroll css -->
-    <link rel="stylesheet" href="/home/css/home_gallery.css">
-    <link rel="stylesheet" href="home/css/style.css">
+    <link rel="stylesheet" href="public/css/home/home_gallery.css">
+    <link rel="stylesheet" href="public/css/home/style.css">
+    <link rel="stylesheet" href="public/css/portfolio/style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Rock+Salt" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -41,22 +42,24 @@
       </a>
     </li>
     <li>
-      <a class="fa fa-briefcase" href="#Portfolio" target="_blank">
+      <a class="fa fa-briefcase" href="#Portfolio" target="">
         <span>portfolio</span>
       </a>
     </li>
+    <!--
     <li>
       <a class="fas fa-suitcase-rolling" href="https://www.youtube.com/@vuktcli" target="_blank">
         <span>travel</span>
       </a>
-    </li>
+    </li>-->
     <li>
-      <a class="fa  fa-user" href="#aboutme" target="_blank">
+      <a class="fa  fa-user" href="#aboutme" target="">
         <span>about-me</span>
       </a>
     </li>
   </ul>
   <body>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
     
     <section id="header">
       <div id="home" class="text-box">
@@ -137,7 +140,7 @@
             <div class="blog-slider__content">
               <div class="blog-slider__title">Safari Diaries</div>
               <div class="blog-slider__text">Wildlife photography, it is through the lens that we can witness the intricate behaviours and interactions of wildlife, offering a unique glimpse into their fascinating lives.Its an opportunity to educate and inspire people to protect and preserve the delicate balance of our ecosystem. </div>
-              <a href="./portfolio/fauna/fauna.html" class="blog-slider__button">Click here for gallery</a>
+              <a href="public/pages/portfolio/fauna/fauna.html" class="blog-slider__button">Click here for gallery</a>
             </div>
           </div>
           <div class="blog-slider__item swiper-slide">
@@ -147,7 +150,7 @@
             <div class="blog-slider__content">
               <div class="blog-slider__title">Wandering Eyes</div>
               <div class="blog-slider__text">Traveling in my free time enables me to create lasting memories, forge meaningful connections, and discover the hidden gems that make our world an extraordinary place to exist.</div>
-              <a href="./portfolio/travel/travel.html" class="blog-slider__button">Click here for gallery</a>
+              <a href="public/pages/portfolio/travel/travel.html" class="blog-slider__button">Click here for gallery</a>
             </div>
           </div>
           <div class="blog-slider__item swiper-slide">
@@ -157,7 +160,7 @@
             <div class="blog-slider__content">
               <div class="blog-slider__title">Panoramas</div>
               <div class="blog-slider__text">Landscape photography is more than just capturing a moment in time. With each frame, it captures the majesty, serenity, and sheer grandeur of nature, allowing us to appreciate and treasure the remarkable landscapes that surround us. </div>
-              <a href="./portfolio/landscapes/landscape.html" class="blog-slider__button">Click here for gallery</a>
+              <a href="public/pages/portfolio/landscapes/landscape.html" class="blog-slider__button">Click here for gallery</a>
             </div>
           </div>
         </div>
@@ -197,25 +200,20 @@
     <section class="footer" style="background-color: rgb(42, 40, 40);">
       <p>Copyrights &copy; VUKClicks, 2024</p>
     </section>
-    <script src="home/js/jquery.min.js"></script>
-    <script src="home/js/popper.min.js%2bbootstrap.min.js.pagespeed.jc.9S4FA15Zn6.js"></script>
-    <script>
-      eval(mod_pagespeed_2mSwO3vn68);
-    </script>
-    <script>
-      eval(mod_pagespeed_aQrG1NKKxL);
-    </script>
-    <script src="home/js/lx.bundle.js"></script>
-    <script src="home/js/default-assets/active.js"></script>
+    <script src="public/js/home/jquery.min.js"></script>
+    <script src="public/js/home/popper.min.js%2bbootstrap.min.js.pagespeed.jc.9S4FA15Zn6.js"></script>
+
+    <script src="public/js/home/lx.bundle.js"></script>
+    <script src="public/js/home/default-assets/active.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
     <!-- animate on scroll js -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
-    <script src="home/js/script.js"></script>
+    <script src="public/js/script.js"></script>
+    <script src="public/js/portfolio/script.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
-    <script src="navportfolio/script.js"></script>
+   
   </body>
 </html>
