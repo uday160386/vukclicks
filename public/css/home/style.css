@@ -119,9 +119,9 @@ h4 {
 
 @media (max-width:750px) {
   #background-video {
-    filter:blur(5px);
+    filter:blur(1px);
       height: 100vh;
-      width: 5vw;
+      width: 10vw;
       object-fit: cover;
       position: fixed;
       left: 0;
@@ -307,9 +307,9 @@ h4 {
       text-align: center
   }
   #background-video {
-    filter:blur(5px);
+    filter:blur(1px);
       height: 100vh;
-      width: 5vw;
+      width: 10vw;
       object-fit: cover;
       position: fixed;
       left: 0;
@@ -330,9 +330,9 @@ h4 {
       text-align: center
   }
   #background-video {
-    filter:blur(5px);
+    filter:blur(1px);
       height: 100vh;
-      width: 5vw;
+      width: 10vw;
       object-fit: cover;
       position: fixed;
       left: 0;
@@ -906,7 +906,7 @@ h4 {
 }
 
 #social-sidebar {
-  left: 0;
+  left: 2%;
   position: fixed;
   top: 30%;
   z-index: 2
