@@ -11,10 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- <link rel="icon" href="../img/core-img/1.png"> -->
     <link rel="icon" href="../img/core-img/favicon.png">
-    <!-- animate on scroll css -->
-    <link rel="stylesheet" href="../../../../public/css/home/home_gallery.css">
-    <link rel="stylesheet" href="../../../../public/css/home/style.css">
-    <link rel="stylesheet" href="../../../../public/css/portfolio/style.css">
+
+   
     <link rel="stylesheet" href="../../../../public/css/home/style_subpages.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -47,12 +45,17 @@
   <ul id="social-sidebar" data-aos="fade-right" data-aos-duration="3000" style="z-index: 200; top:45%">
   
     <li>
+      <a class="fa  fa-home" href="../../../../index.html" target="">
+        <span>home</span>
+      </a>
+    </li>
+    <li>
       <a class="fa  fa-user" href="#aboutme" target="">
         <span>about-me</span>
       </a>
     </li>
   </ul>
-  <ul id="social-sidebar" data-aos="fade-right" data-aos-duration="3000" style="z-index: 200; top:55%">
+  <ul id="social-sidebar" data-aos="fade-right" data-aos-duration="3000" style="z-index: 200; top:60%">
  
     <li>
       <a class="fa-regular fa-images" href="#Portfolio" target="">
@@ -79,183 +82,179 @@
       <div id="home" class="text-box">
         <h1 >VUKClicks</h1>
       </div>
-      <section id="header">
-        <div id="home" class="text-sub-box">
-          <h1 style="font-family: 'Elvishlis', sans-serif;font-size:50px;color:white;right:30%;">Safari Diaries</h1>
-          <p style="font-family: 'Elvishlis', sans-serif;">
-            <i>Wildlife photography, it is through the lens that we can witness the intricate behaviours and interactions of wildlife, offering a unique glimpse into their fascinating lives.Its an opportunity to educate and inspire people to protect and preserve the delicate balance of our ecosystem.</i>
-          </p>
+      
+      
+    </section>
+    <section id="SubPageHeader">
+      <div id="home" class="text-sub-box">
+        <h1 style="font-family: 'Elvishlis', sans-serif;font-size:50px;color:white;right:50%;">Safari Diaries</h1>
+        <p style="font-family: 'Elvishlis', sans-serif;">
+          <i>Wildlife photography, it is through the lens that we can witness the intricate behaviours and interactions of wildlife, offering a unique glimpse into their fascinating lives.Its an opportunity to educate and inspire people to protect and preserve the delicate balance of our ecosystem.</i>
+        </p>
+      </div>
+    </section>
+    <section id="Portfolio" >
+      <div class="grid-container">
+        <div>
+          <img class='grid-item grid-item-1' src='../../../../images/portfolio/wildlife/1.jpg' onclick="openModal();currentSlide(1)" alt=''>
+
+         
         </div>
-      </section>
+        <div>
+          <img class='grid-item grid-item-3' src='../../../../images/portfolio/wildlife/2.jpg' onclick="openModal();currentSlide(2)" alt=''>
+         
+        </div>
+        <div>
+          <img class='grid-item grid-item-2' src='../../../../images/portfolio/wildlife/3.jpg' onclick="openModal();currentSlide(3)" alt=''>
+          <
+        </div>
+        <div>
+          <img class='grid-item grid-item-3' src='../../../../images/portfolio/wildlife/5.jpg' onclick="openModal();currentSlide(4)" alt=''>
+          
+        </div>
+        <div>
+          <img class='grid-item grid-item-4' src='../../../../images/portfolio/wildlife/6.jpg' onclick="openModal();currentSlide(5)" alt=''>
+         
+        </div>
+        <div>
+          <img class='grid-item grid-item-5' src='../../../../images/portfolio/wildlife/7.jpg' onclick="openModal();currentSlide(6)" alt=''>
+          
+        </div>
+        <div>
+          <img class='grid-item grid-item-6' src='../../../../images/portfolio/wildlife/9.jpg' onclick="openModal();currentSlide(7)" alt=''>
+         
+        </div>
+        <div>
+          <img class='grid-item grid-item-2' src='../../../../images/portfolio/wildlife/10.jpg' onclick="openModal();currentSlide(8)" alt=''>
+        
+        </div>
+        <div>
+          <img class='grid-item grid-item-2' src='../../../../images/portfolio/wildlife/15.jpg' onclick="openModal();currentSlide(9)" alt=''>
+         
+        </div>
+        <div>
+          <img class='grid-item grid-item-3' src='../../../../images/portfolio/wildlife/16.jpg' onclick="openModal();currentSlide(10)" alt=''>
+         
+        </div>
+        <div>
+          <img class='grid-item grid-item-4' src='../../../../images/portfolio/wildlife/18.jpg' onclick="openModal();currentSlide(11)" alt=''>
+          
+        </div>
+        <div>
+          <img class='grid-item grid-item-4' src='../../../../images/portfolio/wildlife/19.jpg' onclick="openModal();currentSlide(12)" alt=''>
+          
+        </div>
+        <div>
+          <img class='grid-item grid-item-4' src='../../../../images/portfolio/wildlife/24.jpg' onclick="openModal();currentSlide(13)" alt=''>
+          
+        </div>
+        <div>
+          <img class='grid-item grid-item-4' src='../../../../images/portfolio/wildlife/25.jpg' onclick="openModal();currentSlide(14)" alt=''>
+          
+        </div>
+        <div>
+          <img class='grid-item grid-item-4' src='../../../../images/portfolio/wildlife/33.jpg' onclick="openModal();currentSlide(15)" alt=''>
+          
+        </div>
+      </div>
+
+
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+         
+          <div class="mySlides">
+            <div class="numbertext">1 / 15</div>
+            <img src="../../../../images/portfolio/wildlife/1.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">2 / 15</div>
+            <img src="../../../../images/portfolio/wildlife/2.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 15</div>
+            <img src="../../../../images/portfolio/wildlife/3.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">4 / 15</div>
+            <img src="../../../../images/portfolio/wildlife/5.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">5 / 15</div>
+            <img src="../../../../images/portfolio/wildlife/6.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">6 / 15</div>
+            <img src="../../../../images/portfolio/wildlife/7.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">7 / 15</div>
+            <img src="../../../../images/portfolio/wildlife/9.jpg" style="width:100%">
+          </div>
+         
+      
+          <div class="mySlides">
+            <div class="numbertext">8 / 15</div>
+            <img src="../../../../images/portfolio/wildlife/10.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">9 / 15</div>
+            <img src="../../../../images/portfolio/wildlife/15.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">10 / 15</div>
+            <img src="../../../../images/portfolio/wildlife/16.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">11 / 15</div>
+            <img src="../../../../images/portfolio/wildlife/18.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">12 / 15</div>
+            <img src="../../../../images/portfolio/wildlife/19.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">13 / 15</div>
+            <img src="../../../../images/portfolio/wildlife/24.jpg" style="width:100%">
+          </div>
+         
+          <div class="mySlides">
+            <div class="numbertext">14 / 15</div>
+            <img src="../../../../images/portfolio/wildlife/25.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">15 / 15</div>
+            <img src="../../../../images/portfolio/wildlife/33.jpg" style="width:100%">
+          </div>
+       
+          
+      
+      
+          
+      
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <!-- Caption text -->
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+        
+        </div>
+      </div>
     </section>
-    <section id="Subgallery">
-     
-      <!-- Images used to open the lightbox -->
-<div class="row">
-  <div class="column">
-    <img src="../../../../images/portfolio/wildlife/1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="../../../../images/portfolio/wildlife/2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="../../../../images/portfolio/wildlife/3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="../../../../images/portfolio/wildlife/4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="../../../../images/portfolio/wildlife/5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="../../../../images/portfolio/wildlife/6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
-  </div>
- 
-  
- 
-  
-</div>
-
-<!-- The Modal/Lightbox -->
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-
+    <section class="Footer" style="text-align: center;  color: #fff;">
+      <p style="text-align: center;  color: #fff;">Copyrights &copy; VUKClicks, 2024</p>
+    </section>
    
-    <div class="mySlides">
-      <div class="numbertext">1 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/1.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">2 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/2.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">3 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/3.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">4 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/4.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">5 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/5.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">6 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/6.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">7 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/7.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">8 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/8.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">9 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/9.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">10 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/10.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">11 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/11.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">12 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/12.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">13 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/13.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">14 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/14.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">15 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/15.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">16 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/16.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">17 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/17.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">18 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/18.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">19 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/19.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">20 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/20.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">21 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/22.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">22 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/23.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">23 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/24.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">24 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/25.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">25 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/26.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">26 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/27.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-      <div class="numbertext">26 / 27</div>
-      <img src="../../../../images/portfolio/wildlife/33.jpg" style="width:100%">
-    </div>
-
-
-    
-
-    <!-- Next/previous controls -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-    <!-- Caption text -->
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-
-  
-  </div>
-</div>
-    </section>
-    <section class="footer" style="background-color: rgb(42, 40, 40);">
-      <p>Copyrights &copy; VUKClicks, 2024</p>
-    </section>
     
    
     

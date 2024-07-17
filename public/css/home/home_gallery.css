@@ -5,7 +5,7 @@ h1 {
 .grid-container {
     row: 1 200px;
     column-gap: 1.5rem;
-    width: 90%;
+    width: 70%;
     margin: 0 auto
 }
 
