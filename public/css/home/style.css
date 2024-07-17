@@ -965,9 +965,55 @@ h4 {
   transform: rotate(45deg)
 }
 
-#social-sidebar a[class*=instagrem] span,#social-sidebar a[class*=instagrem] span:before,#social-sidebar a[class*=instagrem]:hover,#social-sidebar a[class*=youtube] span,#social-sidebar a[class*=youtube] span:before,#social-sidebar a[class*=youtube]:hover {
+#social-sidebar a[class*=instagram] span,
+#social-sidebar a[class*=instagram] span:before,
+#social-sidebar a[class*=instagram]:hover{
   background: #ea4c89
 }
+
+#social-sidebar a[class*=flickr] span,
+#social-sidebar a[class*=flickr] span:before,
+#social-sidebar a[class*=flickr]:hover{
+  background: #ea4c89
+}
+
+#social-sidebar a[class*=youtube] span,
+#social-sidebar a[class*=youtube] span:before,
+#social-sidebar a[class*=youtube]:hover {
+  background: #ea4c89
+}
+
+#social-sidebar a[class*=images] span,
+#social-sidebar a[class*=images] span:before,
+#social-sidebar a[class*=images]:hover {
+  background: #ea4c89
+}
+
+#social-sidebar a[class*=paw] span,
+#social-sidebar a[class*=paw] span:before,
+#social-sidebar a[class*=paw]:hover {
+  background: #ea4c89
+}
+
+#social-sidebar a[class*=plane] span,
+#social-sidebar a[class*=plane] span:before,
+#social-sidebar a[class*=plane]:hover {
+  background: #ea4c89
+}
+
+#social-sidebar a[class*=panorama] span,
+#social-sidebar a[class*=panorama] span:before,
+#social-sidebar a[class*=panorama]:hover {
+  background: #ea4c89
+}
+
+#social-sidebar a[class*=user] span,
+#social-sidebar a[class*=user] span:before,
+#social-sidebar a[class*=user]:hover {
+  background: #ea4c89
+}
+
+
 
 a,a:active,a:focus,a:hover {
   text-decoration: none;

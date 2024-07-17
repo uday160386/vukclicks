@@ -1,305 +1,135 @@
-#Felidae, #Fauna, #FF, #ForestN, #nevisR,#Cambodia,#Canada,#HongKong,#India,#Indonesia,#Malaysia,#Singapore,#Thailand,#UnitedKingdom {
-	padding: 10px 0;
+#Subgallery{
+	left: 40%;
+	position: fixed;
+	top: 40%;
+	z-index: 2;
+  }
+  .row > .column {
+	padding: 0 8px;
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Create four equal columns that floats next to eachother */
+  .column {
+	float: left;
+	width: 25%;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
 	position: relative;
-	top:0%;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	width: 100%;
+	max-width: 800px;
   }
-  .text-box {
-	width: 90%;
-	color: #fff;
+  
+  /* The Close Button */
+  .close {
+	color: white;
 	position: absolute;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-	}
-  
-  .text-box h1 {
-	font-family: 'Elvishlis', sans-serif;
-	color: rgb(247, 244, 244);
-	font-size: 80px;
-	font-style: bold;
-	font-variant: small-caps;
-	font-weight: 700;
-	line-height: 80px;
-  }
-  .text-box h2 {
-	font-family: 'Elvishlis', sans-serif;
-	color: rgb(247, 244, 244);
-	font-size: 50px;
-	font-style: bold;
-	top:90%;
-	font-variant: small-caps;
-	font-weight: 700;
-	line-height: 80px;
+	top: 10px;
+	right: 25px;
+	font-size: 35px;
+	font-weight: bold;
   }
   
-  .container
-  {
-  height:100%;	
-	z-index: -50;
-	width: 50%;
-	left: 20%;
-  }
-  .trans
-  {
-	  transition: all 1s ease;
-	  -moz-transition: all 1s ease;
-	  -ms-transition: all 1s ease;
-	  -o-transition: all 1s ease;
-	  -webkit-transition: all 1s ease;
-  }
-  .top
-  {
-	  display: flex;
-	 height:100%;
-  }
-  .top ul
-  {
-	  list-style: none;
-	  height:100%;
-
-  
-  }
-  .top ul li
-  {
-	  position: relative;
-	  float: left;
-	  width: 25%;
-	  height: 50%;
-	  overflow: hidden;
-  
+  .close:hover,
+  .close:focus {
+	color: #999;
+	text-decoration: none;
+	cursor: pointer;
   }
   
-  .top ul li::before
-  {
-	  position: absolute;
-	  top: 0;
-	  left: 0;
-	  width: 100%;
-	  height: 100%;
-	  background-color: #000;
-	  content: '';
-	  color: white;
-	  opacity: 0.4;
-	  text-align: center;
-	  box-sizing: border-box;
-	  pointer-events: none;
-	  transition: all 0.5s ease;
-	  -moz-transition: all 0.5s ease;
-	  -ms-transition: all 0.5s ease;
-	  -o-transition: all 0.5s ease;
-	  -webkit-transition: all 0.5s ease;
+  /* Hide the slides by default */
+  .mySlides {
+	display: none;
   }
-  .top ul li:hover::before
-  {
-	  opacity: 0;
-	  background-color: rgba(0,0,0,0.90);
-  }
-  .top ul li img
-  {
-	  width: 100%;
-	  height: 100%;
-	  overflow: hidden;
-  }
-  .lightbox
-  {
-	  position: fixed;
-	  width: 100%;
-	  height: 100%;
-	  text-align: center;
-	  top: 0;
-	  left: 0;
-	  background-color: rgba(0,0,0,0.75);
-	  z-index: 999;
-	  opacity: 0;
-	  pointer-events: none;
-  }
-  .lightbox img
-  {
-	  max-width: 90%;
-	  max-height: 90%;
-	  position: relative;
-	  top: -100%;
-	  /* Transition */
-	  transition: all 1s ease;
-	  -moz-transition: all 1s ease;
-	  -ms-transition: all 1s ease;
-	  -o-transition: all 1s ease;
-	  -webkit-transition: all 1s ease;
-  }
-  .lightbox:target
-  {
-	  outline: none;
-	  top: 0;
-	  opacity: 1;
-	  pointer-events: auto;
-	  transition: all 1.2s ease;
-	  -moz-transition: all 1.2s ease;
-	  -ms-transition: all 1.2s ease;
-	  -o-transition: all 1.2s ease;
-	  -webkit-transition: all 1.2s ease;
-  }
-  .lightbox:target img
-  {
-	  top: 0;
-	  top: 50%;
-	  transform: translateY(-50%);
-	  -moz-transform: translateY(-50%);
-	  -ms-transform: translateY(-50%);
-	  -o-transform: translateY(-50%);
-	  -webkit-transform: translateY(-50%);
-  }
-
-  #ForestN{
-	padding: 30px 0;
-	position: relative;
-	top:20%;
-  }
-  .text-box {
-	width: 90%;
-	color: #fff;
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+	cursor: pointer;
 	position: absolute;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	right: -10%;
+	border-radius: 3px 0 0 3px;
+  }
+  .prev {
+	left: -10%;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  /* Caption text */
+  .caption-container {
 	text-align: center;
-	}
-  
-  .text-box h1 {
-	font-family: 'Elvishlis', sans-serif;
-	color: rgb(247, 244, 244);
-	font-size: 80px;
-	font-style: bold;
-	font-variant: small-caps;
-	font-weight: 700;
-	line-height: 80px;
-  }
-  .text-box h2 {
-	font-family: 'Elvishlis', sans-serif;
-	color: rgb(247, 244, 244);
-	font-size: 50px;
-	font-style: bold;
-	top:90%;
-	font-variant: small-caps;
-	font-weight: 700;
-	line-height: 80px;
+	background-color: black;
+	padding: 2px 16px;
+	color: white;
   }
   
-  .container
-  {
-  height:100%;	
-	z-index: -10;
-  }
-  .trans
-  {
-	  transition: all 1s ease;
-	  -moz-transition: all 1s ease;
-	  -ms-transition: all 1s ease;
-	  -o-transition: all 1s ease;
-	  -webkit-transition: all 1s ease;
-  }
-  .top
-  {
-	  display: flex;
-	  height:100%;	
-	  margin-top: 10vh;
-	  margin-left: auto;
-	  margin-right: auto;
-	  margin-bottom: 10vh;
-  }
-  .top ul
-  {
-	  list-style: none;
-	  z-index: 1;
-  
-  }
-  .top ul li
-  {
-	  position: relative;
-	  float: left;
-	  width: 25%;
-	  height: 50%;
-	  overflow: hidden;
-	  border: 5px solid transparent;
-  
+  img.demo {
+	opacity: 0.6;
   }
   
-  .top ul li::before
-  {
-	  position: absolute;
-	  top: 0;
-	  left: 0;
-	  width: 100%;
-	  height: 100%;
-	  background-color: #000;
-	  content: '';
-	  color: white;
-	  opacity: 0.4;
-	  text-align: center;
-	  box-sizing: border-box;
-	  pointer-events: none;
-	  transition: all 0.5s ease;
-	  -moz-transition: all 0.5s ease;
-	  -ms-transition: all 0.5s ease;
-	  -o-transition: all 0.5s ease;
-	  -webkit-transition: all 0.5s ease;
+  .active,
+  .demo:hover {
+	opacity: 1;
   }
-  .top ul li:hover::before
-  {
-	  opacity: 0;
-	  background-color: rgba(0,0,0,0.90);
-	 
+  
+  img.hover-shadow {
+	transition: 0.3s;
   }
-  .top ul li img
-  {
-	  width: 100%;
-	  height: 100%;
-	  overflow: hidden;
-  }
-  .lightbox
-  {
-	  position: fixed;
-	  width: 100%;
-	  height: 100%;
-	  text-align: center;
-	  top: 0;
-	  left: 0;
-	  background-color: rgba(0,0,0,0.75);
-	  z-index: 999;
-	  opacity: 0;
-	  pointer-events: none;
-  }
-  .lightbox img
-  {
-	  max-width: 90%;
-	  max-height: 90%;
-	  position: relative;
-	  top: -100%;
-	  /* Transition */
-	  transition: all 1s ease;
-	  -moz-transition: all 1s ease;
-	  -ms-transition: all 1s ease;
-	  -o-transition: all 1s ease;
-	  -webkit-transition: all 1s ease;
-  }
-  .lightbox:target
-  {
-	  outline: none;
-	  top: 0;
-	  opacity: 1;
-	  pointer-events: auto;
-	  transition: all 1.2s ease;
-	  -moz-transition: all 1.2s ease;
-	  -ms-transition: all 1.2s ease;
-	  -o-transition: all 1.2s ease;
-	  -webkit-transition: all 1.2s ease;
-  }
-  .lightbox:target img
-  {
-	  top: 0;
-	  top: 50%;
-	  transform: translateY(-50%);
-	  -moz-transform: translateY(-50%);
-	  -ms-transform: translateY(-50%);
-	  -o-transform: translateY(-50%);
-	  -webkit-transform: translateY(-50%);
-	  box-shadow: 0px 0px 20px rgba(250, 248, 248, 0.3);
+  
+  .hover-shadow:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
