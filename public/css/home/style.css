@@ -683,12 +683,11 @@ h4 {
   }
 }
 
-
 #social-sidebar {
   left: 1%;
-  position: absolute;
+  position: relative;
   top: 30%;
-  z-index: 2
+  z-index: 3
 }
 
 #social-sidebar li:first-child a {
@@ -702,8 +701,6 @@ h4 {
 #social-sidebar a {
   background: rgba(31,30,30,.7);
   color: #fff;
-  text-decoration: none;
-  display: block;
   height: 50px;
   width: 50px;
   font-size: 24px;
@@ -739,7 +736,7 @@ h4 {
   width: 8px;
   left: -4px;
   margin-top: -4px;
-  position: absolute;
+  position: fixed;
   top: 50%;
   transform: rotate(45deg)
 }
