@@ -44,7 +44,7 @@
 }
 
 .text-box h1 {
-    font-family: "Elvishlis", sans-serif;
+    font-family: "BlackJack", sans-serif;
     color: #f7f4f4;
     font-size: 25px;
     font-style: bold;
@@ -302,64 +302,64 @@ h4 {
 
 
 #social-sidebar {
-    left: 1%;
-    position: fixed;
-    top: 30%;
-    z-index: 2
-  }
-  
-  #social-sidebar li:first-child a {
-    border-top-right-radius: 5px
-  }
-  
-  #social-sidebar li:last-child a {
-    border-bottom-right-radius: 5px
-  }
-  
-  #social-sidebar a {
-    background: rgba(31,30,30,.7);
-    color: #fff;
-    text-decoration: none;
-    display: block;
-    height: 50px;
-    width: 50px;
-    font-size: 24px;
-    line-height: 50px;
-    position: relative;
-    text-align: center;
-    cursor: pointer
-  }
-  
-  #social-sidebar a:hover span {
-    left: 120%;
-    opacity: 1
-  }
-  
-  #social-sidebar a span {
-    font: 12px"Poppins",sans-serif;
-    text-transform: uppercase;
-    border-radius: 3px;
-    line-height: 24px;
-    left: -100%;
-    margin-top: -16px;
-    opacity: 0;
-    padding: 4px 8px;
-    position: absolute;
-    transition: opacity .3s,left .4s;
-    top: 50%;
-    z-index: -1
-  }
-  
-  #social-sidebar a span:before {
-    display: block;
-    height: 8px;
-    width: 8px;
-    left: -4px;
-    margin-top: -4px;
-    position: absolute;
-    top: 50%;
-    transform: rotate(45deg)
-  }
+  left: 1%;
+  position: absolute;
+  top: 30%;
+  z-index: 2
+}
+
+#social-sidebar li:first-child a {
+  border-top-right-radius: 5px
+}
+
+#social-sidebar li:last-child a {
+  border-bottom-right-radius: 5px
+}
+
+#social-sidebar a {
+  background: rgba(31,30,30,.7);
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  height: 50px;
+  width: 50px;
+  font-size: 24px;
+  line-height: 50px;
+  position: relative;
+  text-align: center;
+  cursor: pointer
+}
+
+#social-sidebar a:hover span {
+  left: 120%;
+  opacity: 1
+}
+
+#social-sidebar a span {
+  font: 12px"Poppins",sans-serif;
+  text-transform: uppercase;
+  border-radius: 3px;
+  line-height: 24px;
+  left: -100%;
+  margin-top: -16px;
+  opacity: 0;
+  padding: 4px 8px;
+  position: absolute;
+  transition: opacity .3s,left .4s;
+  top: 50%;
+  z-index: -1
+}
+
+#social-sidebar a span:before {
+  display: block;
+  height: 8px;
+  width: 8px;
+  left: -4px;
+  margin-top: -4px;
+  position: absolute;
+  top: 50%;
+  transform: rotate(45deg)
+}
   
   #social-sidebar a[class*=instagram] span,
   #social-sidebar a[class*=instagram] span:before,
@@ -484,27 +484,31 @@ h4 {
     top: 30%;
   }
 .grid-container {
-    row: 1 200px;
-    columns: 1 ;
-    column-gap: 1.5rem;
-    width: 80%;
-    margin: 0 auto;
-    left:50%;
+  
+    columns: 2 ;
+    left: 20%;
+    column-gap: 1.0 rem;
+    width: 80%;  
+    margin-left: auto;
+  margin-right: auto;
+    text-align: center;
 }
 
 .grid-container div,.grid-container div img {
-    width: 80%;
-    border-radius: 5px;
-    align-items: center;
-    transition: all .25s ease-in-out;
+    width: 100%;
+    border-radius: 1px;
     left:50%;
+
+    transition: all .25s ease-in-out
 }
 
 .grid-container div {
     margin: 0 1.5rem 1.5rem 0;
-    display: inline-block;
+   
     border: solid 2px #cb1e1e;
-    padding: 5px;left:50%;
+    padding: 1px;
+    left:50%;
+    right:50%;
    
     box-shadow: 5px 5px 5px rgba(183, 4, 4, 0.5)
 }
@@ -519,7 +523,7 @@ h4 {
 
 .grid-container div img {
     filter: grayscale(100%);
-    left:50%;
+
     
 }
 

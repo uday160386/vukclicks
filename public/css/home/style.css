@@ -686,7 +686,7 @@ h4 {
 
 #social-sidebar {
   left: 1%;
-  position: fixed;
+  position: absolute;
   top: 30%;
   z-index: 2
 }
@@ -714,7 +714,7 @@ h4 {
 }
 
 #social-sidebar a:hover span {
-  left: 120%;
+  left: 0%;
   opacity: 1
 }
 
@@ -723,14 +723,14 @@ h4 {
   text-transform: uppercase;
   border-radius: 3px;
   line-height: 24px;
-  left: -100%;
-  margin-top: -16px;
+  left: 0%;
+  margin-top: 16px;
   opacity: 0;
   padding: 4px 8px;
   position: absolute;
   transition: opacity .3s,left .4s;
-  top: 50%;
-  z-index: -1
+  top: 80%;
+  
 }
 
 #social-sidebar a span:before {
