@@ -23,23 +23,22 @@
 }
 
 #SubPageHeader {
-    min-height: 40vh;
+    min-height: 20vh;
     width: 100%;
-    height: 10%;
-    background-position: center;
-    /* background-size: cover; */
+    height: 20%;
+   /* background-size: cover; */
     position: relative;
     overflow: hidden;
-    top: 20%
+    top: 20%;
+    background-color: black;
 }
 
 .text-box {
     width: 30%;
     color: #fff;
     position: absolute;
-    top: 20%;
-    left: 6%;
-    height: 30%;
+    top: 30%;
+    left: 20%;
     transform: translate(-50%, -50%);
     text-align: right
 }
@@ -49,39 +48,51 @@
     color: #f7f4f4;
     font-size: 25px;
     font-style: bold;
+    width: 10%;
+}
+.text-box h2 {
+  font-family: "Elvishlis", sans-serif;
+  color: #f7f4f4;
+  font-size: 40px;
+  font-style: bold;
 }
 
 .text-box p {
-    margin: 20px 0 40px;
+
     font-size: 15px;
     color: #fff;
-    height: 10%;;
+    height: 10%;
+    text-align: center;
 }
 
 .text-sub-box {
-    width: 80%;
+    width: 100%;
     color: #fff;
-    position: absolute;
-    top: 40%;
-    left: 88%;
-    transform: translate(-50%, -50%);
-    text-align: left
+    position: relative;
+    top: 10%;
+    height: 50%;
+    width: auto;
+
 }
 
-.text-sub-box h1 {
+.text-sub-box h2 {
     font-family: "Elvishlis", sans-serif;
     color: #f7f4f4;
-    font-size: 25px;
-    font-style: bold
+    font-size: 40px;
+    font-style: bold;
+    left: 50%;
+    top: 10%;
 }
 
 .text-sub-box p {
-    margin: 20px 0 10px;
-    width:60%;
-    font-size: 15px;
-    color: #fff;
-    left: 75%;
-    text-align: right;
+  font-family: "Elvishlis", sans-serif;
+  color: #f7f4f4;
+  font-size: 14px;
+  font-style: bold;
+  top: 10%;
+  left: 60%;
+  width: auto;
+  text-align: center;
 }
 
 
@@ -473,25 +484,29 @@ h4 {
     top: 30%;
   }
 .grid-container {
-    row: 4 200px;
-    columns: 4 ;
+    row: 1 200px;
+    columns: 1 ;
     column-gap: 1.5rem;
-    width: 70%;
-    margin: 0 auto
+    width: 80%;
+    margin: 0 auto;
+    left:50%;
 }
 
 .grid-container div,.grid-container div img {
-    width: 100%;
+    width: 80%;
     border-radius: 5px;
-    transition: all .25s ease-in-out
+    align-items: center;
+    transition: all .25s ease-in-out;
+    left:50%;
 }
 
 .grid-container div {
     margin: 0 1.5rem 1.5rem 0;
     display: inline-block;
-    border: solid 2px #e5dfdf;
-    padding: 5px;
-    box-shadow: 5px 5px 5px rgba(0,0,0,.5)
+    border: solid 2px #cb1e1e;
+    padding: 5px;left:50%;
+   
+    box-shadow: 5px 5px 5px rgba(183, 4, 4, 0.5)
 }
 
 .grid-container div:hover img {
@@ -499,11 +514,13 @@ h4 {
 }
 
 .grid-container div:hover {
-    border-color: #f7f4f3
+    border-color: #d5410f
 }
 
 .grid-container div img {
-    filter: grayscale(100%)
+    filter: grayscale(100%);
+    left:50%;
+    
 }
 
 .grid-container div p {

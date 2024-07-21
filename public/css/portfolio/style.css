@@ -1,3 +1,43 @@
+
+* {
+	box-sizing: border-box
+  }
+  
+  #header {
+	min-height: 100vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	overflow: hidden
+  }
+  
+  .text-box {
+   
+	color: transparent;
+	box-shadow: 5px 200px 40% -7px rgba(217, 12, 12, 0.64);
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center
+  }
+  
+  .text-box h1 {
+	font-family: "BlackJack",sans-serif;
+	color: #d51c1c;
+	font-size: 120px;
+	font-style: bold;
+	font-variant: small-caps;
+	font-weight: 700;
+	line-height: 80px
+  }
+  
+  .text-box p {
+	margin: 20px 0 40px;
+	font-size: 15px;
+	color: #fff
+  }
 #Subgallery{
 	left: 15%;
 	position: absolute;
