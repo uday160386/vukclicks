@@ -23,68 +23,76 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
     <title>VUKClicks</title>
-  </head>
 
-  <ul id="social-sidebar" data-aos="fade-right" data-aos-duration="3000" style=" top:0%; ">
-   
-    <li style="float: left; top:0%">
-      <a class="fa fa-instagram" href="https://www.instagram.com/vukclicks/" target="_blank" >
-        <span>Instagram</span>
-      </a>
-    </li>
-    <li style=" float: left; top:0%">
-      <a class="fa fa-flickr" href="https://www.flickr.com/photos/vukhere/" target="_blank">
-        <span>flickr</span>
-      </a>
-    </li>
-    <li style=" float: left; top:0%">
-      <a class="fa fa-youtube-play" href="https://www.youtube.com/@vuktcli" target="_blank">
-        <span>youtube</span>
-      </a> 
-      <div></div>
-    </li>
-    <li style=" float: left; top:0%">
-      <a class="fa-regular fa-images" href="#Portfolio" target="">
-        <span>gallery</span>
-      </a>
-    </li>
-    <li style=" float: left; top:0%">
-      <a class="fa  fa-user" href="#aboutme" target="">
-        <span>about-me</span>
-      </a>
-      <div></div>
-    </li> 
-    <li style=" float: left; top:0%">
-      <a class="fa fa-paw" href="./public/pages/portfolio/fauna/fauna.html" target="">
-        <span>Safari Diaries</span>
-      </a>
-    </li>
-    <li style=" float: left; top:0%">
-      <a class="fa fa-plane" href="#Portfolio" target="">
-        <span>Wandering Eyes</span>
-      </a>
-    </li>
-    <li style="float: left; top:0%">
-      <a class="fas fa-panorama" href="#Portfolio" target="">
-        <span>Panoramas</span>
-      </a>
-    </li>
-   
-  </ul>
- 
-  
+  </head>
   <body>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
     
+   
     <section id="header">
+      <nav>
+        <div class="navbar">
+          <div class="container nav-container">
+              <input class="checkbox" type="checkbox" name="" id="" />
+              <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+              </div>  
+            
+            <div class="menu-items">
+              <li>
+                <a class="fa fa-instagram" href="https://www.instagram.com/vukclicks/" target="_blank" >
+                  Instagram               </a>
+              </li>
+              <li>
+                <a class="fa fa-flickr" href="https://www.flickr.com/photos/vukhere/" target="_blank">
+                  Flickr
+                </a>
+              </li>
+              <li>
+                <a class="fa fa-youtube-play" href="https://www.youtube.com/@vuktcli" target="_blank">
+                  Youtube
+                </a> 
+              </li><br/>
+              <hr style="width:80%;text-align:right;margin-left:10;align:right;"/><br/>
+              <li>
+                <a class="fa-regular fa-images" href="#Portfolio" target="">
+                 Gallery
+                </a>
+              </li>
+              <li>
+                <a class="fa  fa-user" href="#aboutme" target="">
+                  About-me
+                </a>
+               
+              </li> 
+              <br/>
+              <hr style="width:80%;text-align:right;margin-right:10"/><br/>
+              <li>
+                <a class="fa fa-paw" href="./public/pages/portfolio/fauna/fauna.html" target="">
+                 Safari Diaries
+                </a>
+              </li>
+              <li>
+                <a class="fa fa-plane" href="#Portfolio" target="">
+                  Wandering Eyes
+                </a>
+              </li>
+              <li >
+                <a class="fas fa-panorama" href="#Portfolio" target="">
+                  Panoramas
+                </a>
+              </li>
+            
+            </div>
+          </div>
+        </div>
+      </nav>
       <div id="home" class="text-box">
         <h1>VUK Clicks</h1>
         <p style="font-family: 'Elvishlis', sans-serif;">
           <i>“What I like about photographs is that they capture a moment that’s gone forever, impossible to reproduce.” – Karl Lagerfeld </i>
         </p>
-        <!--<a href="#Portfolio-Flexi" class="hero-btn">Portfolio </a>
-        <a href="#aboutme" class="hero-btn">About me</a>
-        <a href="#Portfolio" class="hero-btn">-->
           <span>&#8595;</span>
         </a>
       </div>
@@ -177,6 +185,16 @@
     <section class="footer" style="background-color: rgb(42, 40, 40);">
       <p>Copyrights &copy; VUKClicks, 2024</p>
     </section>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
     <script src="public/js/home/jquery.min.js"></script>
     <script src="public/js/home/popper.min.js%2bbootstrap.min.js.pagespeed.jc.9S4FA15Zn6.js"></script>
 
