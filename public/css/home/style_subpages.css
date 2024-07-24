@@ -46,7 +46,8 @@
 .text-box h1 {
   font-family: "BlackJack", sans-serif;
   top: 40%;
-  color: #f7f4f4;
+  color: #d51c1c;
+
   font-size: 80px;
   font-style: bold;
   width: 10%;
@@ -77,7 +78,7 @@ font-style: bold;
 }
 .text-sub-box h1 {
   font-family: "BlackJack", sans-serif;
-  color: #f7f4f4;
+  color: #d51c1c;
   font-size: 50px;
   font-style: bold;
   left: 50%;
