@@ -44,7 +44,7 @@
 }
 
 .text-box h1 {
-  font-family: "BlackJack", sans-serif;
+  font-family: "Elvishlis", sans-serif;
   top: 40%;
   color: #d51c1c;
 
@@ -75,6 +75,32 @@ font-style: bold;
   height: 50%;
   width: auto;
 
+}
+.text-sub-box ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  background-color: #060606;
+}
+
+.text-sub-box ul li {
+  float: left;
+}
+
+.text-sub-box ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-family: "Elvishlis", sans-serif;
+}
+
+.text-sub-box ul li a:hover {
+  background-color: #111111;
 }
 .text-sub-box h1 {
   font-family: "BlackJack", sans-serif;
@@ -475,113 +501,6 @@ h4 {
 }
 
 
-#social-sidebar {
-left: 1%;
-position: absolute;
-top: 30%;
-z-index: 2
-}
-
-#social-sidebar li:first-child a {
-border-top-right-radius: 5px
-}
-
-#social-sidebar li:last-child a {
-border-bottom-right-radius: 5px
-}
-
-#social-sidebar a {
-background: rgba(31,30,30,.7);
-color: #fff;
-text-decoration: none;
-display: block;
-height: 50px;
-width: 50px;
-font-size: 24px;
-line-height: 50px;
-position: relative;
-text-align: center;
-cursor: pointer
-}
-
-#social-sidebar a:hover span {
-left: 120%;
-opacity: 1
-}
-
-#social-sidebar a span {
-font: 12px"Poppins",sans-serif;
-text-transform: uppercase;
-border-radius: 3px;
-line-height: 24px;
-left: -100%;
-margin-top: -16px;
-opacity: 0;
-padding: 4px 8px;
-position: absolute;
-transition: opacity .3s,left .4s;
-top: 50%;
-z-index: -1
-}
-
-#social-sidebar a span:before {
-display: block;
-height: 8px;
-width: 8px;
-left: -4px;
-margin-top: -4px;
-position: absolute;
-top: 50%;
-transform: rotate(45deg)
-}
-
-#social-sidebar a[class*=instagram] span,
-#social-sidebar a[class*=instagram] span:before,
-#social-sidebar a[class*=instagram]:hover{
-  background: #ea4c89
-}
-
-#social-sidebar a[class*=flickr] span,
-#social-sidebar a[class*=flickr] span:before,
-#social-sidebar a[class*=flickr]:hover{
-  background: #ea4c89
-}
-
-#social-sidebar a[class*=youtube] span,
-#social-sidebar a[class*=youtube] span:before,
-#social-sidebar a[class*=youtube]:hover {
-  background: #ea4c89
-}
-
-#social-sidebar a[class*=images] span,
-#social-sidebar a[class*=images] span:before,
-#social-sidebar a[class*=images]:hover {
-  background: #ea4c89
-}
-
-#social-sidebar a[class*=paw] span,
-#social-sidebar a[class*=paw] span:before,
-#social-sidebar a[class*=paw]:hover {
-  background: #ea4c89
-}
-
-#social-sidebar a[class*=plane] span,
-#social-sidebar a[class*=plane] span:before,
-#social-sidebar a[class*=plane]:hover {
-  background: #ea4c89
-}
-
-#social-sidebar a[class*=panorama] span,
-#social-sidebar a[class*=panorama] span:before,
-#social-sidebar a[class*=panorama]:hover {
-  background: #ea4c89
-}
-
-#social-sidebar a[class*=user] span,
-#social-sidebar a[class*=user] span:before,
-#social-sidebar a[class*=user]:hover {
-  background: #ea4c89
-}
 
 
 
@@ -647,7 +566,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 #Portfolio {
   min-height: 100vh;
   font-family: "Elvishlis",sans-serif;
-  background-color: #100f0f;
+  background-color: #000000;
   display: grid;
   box-sizing: border-box;
   text-align: top;
@@ -674,6 +593,11 @@ margin-right: auto;
   left:50%;
 
   transition: all .25s ease-in-out
+}
+
+
+.container .btn:hover {
+  background-color: black;
 }
 
 .grid-container div {
@@ -878,4 +802,6 @@ font-size: 16px;
 bottom: 10%;
 color: #fff;
 
-}
+} 
+
+
