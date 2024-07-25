@@ -82,7 +82,6 @@ font-style: bold;
   margin: 0;
   padding: 0;
   overflow: hidden;
-
   background-color: #060606;
 }
 
@@ -100,7 +99,7 @@ font-style: bold;
 }
 
 .text-sub-box ul li a:hover {
-  background-color: #111111;
+  background-color: #d51c1c;
 }
 .text-sub-box h1 {
   font-family: "BlackJack", sans-serif;
@@ -529,9 +528,15 @@ img {
   height: auto
 }
 
-ul,ul li {
+ul {
   margin: 0;
-  padding: 0
+  padding: 0;
+
+}
+ul li {
+  margin: 0;
+  padding: 0;
+
 }
 img.hover-shadow {
 transition: 0.3s;
