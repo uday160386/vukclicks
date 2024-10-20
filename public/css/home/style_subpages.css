@@ -74,25 +74,31 @@ font-style: bold;
   top: 50%;
   height: 50%;
   width: auto;
+  right:10px;
+  text-align: center;
 
 }
 
-.text-sub-box ul {
-  list-style-type: none;
+.text-sub-box ol {
+  
+
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: #333;
-  overflow: scroll;
+  right:50px;
 }
 
 .text-sub-box li {
-  float: left;
+  display: inline-flex;
+  justify-content: center;
+  float: right;
+
 }
 
 .text-sub-box li a, .dropbtn {
   display: inline-block;
   color: white;
+  right:10px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -133,8 +139,8 @@ font-style: bold;
   justify-content: center;
   margin: 0;
   padding: 0;
+  overflow: hidden;
   background-color: #060606;
-  overflow: scroll; 
 }
 
 .text-sub-box ul li {
