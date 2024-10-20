@@ -37,9 +37,9 @@
   box-shadow: 5px 200px 40% -7px rgba(217, 12, 12, 0.64);
   position: absolute;
   top: 55%;
-  left: 50%;
+  left: 80%;
   transform: translate(-50%,-50%);
-  text-align: center
+
 }
 
 .text-box h1 {
@@ -283,9 +283,21 @@ h4 {
   .cards {
       grid-template-columns: repeat(2 1fr)
   }
+
+  
 }
 
 @media (max-width:1000px) {
+  .text-box {
+ 
+    color: transparent;
+    box-shadow: 5px 200px 40% -7px rgba(217, 12, 12, 0.64);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  
+  }
   .cards {
       grid-template-columns: repeat(1,1fr)
   }
