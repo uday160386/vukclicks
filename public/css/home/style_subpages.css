@@ -133,9 +133,8 @@ font-style: bold;
   justify-content: center;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: #060606;
-  overflow: scroll;
+  overflow: scroll; 
 }
 
 .text-sub-box ul li {
