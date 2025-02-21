@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Adder</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        h2 {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Add Two Random Numbers</h1>
+    <button onclick="addRandomNumbers()">Generate and Add</button>
+    <h2 id="result"></h2>
+
+    <script>
+        function addRandomNumbers() {
+            // Generate two random numbers between 1 and 100
+            const num1 = Math.floor(Math.random() * 10) + 1;
+            const num2 = Math.floor(Math.random() * 10) + 1;
+            // Calculate the sum
+            const sum = num1 + num2;
+            // Display the result
+            document.getElementById("result").innerText = `The sum of ${num1} + ${num2} = ${sum}.`;
+        }
+    </script>
+</body>
+</html>

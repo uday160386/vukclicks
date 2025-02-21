@@ -68,7 +68,7 @@ font-style: bold;
 }
 
 .text-sub-box {
-  width: 100%;
+  width: 50%;
   color: #fff;
   position: relative;
   top: 50%;
@@ -79,8 +79,10 @@ font-style: bold;
 }
 
 .text-sub-box li {
-  left:50px;
+  
   float: right;
+  width:50%;
+ 
 
 }
 
@@ -90,6 +92,8 @@ font-style: bold;
   right:10px;
   text-align: center;
   padding: 14px 16px;
+  left:50px;
+  height:50%;
  
 }
 
@@ -692,10 +696,9 @@ margin-right: auto;
 }
 
 .grid-container div,.grid-container div img {
-  width: 100%;
+  width: 50%;
   border-radius: 1px;
   left:50%;
-
   transition: all .25s ease-in-out
 }
 
