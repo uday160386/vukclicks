@@ -34,17 +34,17 @@
 .text-box {
  
   color: transparent;
-  box-shadow: 5px 200px 40% -7px rgba(217, 12, 12, 0.64);
+  box-shadow: 5px 200px 40% -7px rgba(255, 254, 254, 0.64);
   position: absolute;
   top: 55%;
-  left: 80%;
+  left: 50%;
   transform: translate(-50%,-50%);
 
 }
 
 .text-box h1 {
   font-family: "BlackJack",sans-serif;
-  color: #dd1616;
+  color: #ffffff;
   font-size: 120px;
   font-style: bold;
   font-variant: small-caps;
