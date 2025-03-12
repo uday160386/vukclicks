@@ -593,9 +593,9 @@ h4 {
 }
 
 .grid-container {
-  columns: 2 200px;
+  columns: 1 200px;
   column-gap: 1.5rem;
-  width: 80%;
+  width: 100%;
   margin: 0 auto
 }
 
@@ -644,7 +644,7 @@ h4 {
   width: 100%;
   position: relative;
   overflow-y: hidden;
-  top: 30%;
+  top: 50%;
 }
 
 
