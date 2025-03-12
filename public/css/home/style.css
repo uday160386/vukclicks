@@ -595,7 +595,7 @@ h4 {
 .grid-container {
   columns: 1 200px;
   column-gap: 1.5rem;
-  width: 100%;
+  width: 95%;
   margin: 0 auto
 }
 
