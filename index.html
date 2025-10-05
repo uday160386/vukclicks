@@ -211,6 +211,7 @@
             height: auto;
             display: block;
             transition: transform 0.6s ease, filter 0.3s ease;
+            image-rendering: auto;
         }
 
         .gallery-item:hover img {
@@ -390,6 +391,7 @@
             width: auto;
             height: auto;
             object-fit: contain;
+            image-rendering: auto;
             border-radius: 8px;
             box-shadow: 0 20px 60px rgba(0,0,0,0.8);
         }
@@ -677,7 +679,8 @@
         images.forEach((img, index) => {
             const item = document.createElement('div');
             item.className = 'gallery-item';
-            item.innerHTML = `<img src="${img}" alt="Gallery image ${index + 1}" data-index="${index}">`;
+            // If you have higher-res versions, e.g. images/home/gallery/1.0-large.jpg, use srcset below
+            item.innerHTML = `<img src="${img}" alt="Gallery image ${index + 1}" data-index="${index}" srcset="${img} 1x" sizes="(max-width: 800px) 100vw, 800px">`;
             galleryGrid.appendChild(item);
         });
 
